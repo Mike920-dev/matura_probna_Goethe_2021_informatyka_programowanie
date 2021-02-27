@@ -23,7 +23,7 @@ def display_pairs(pairs_func):
     #ta lista będzie przechowywać pary osób
     pairs_friends = []
 
-    #w tej pętlitworzymy pary i zwiększamy za każdym obrotem 1. pętli friendNumber, który reprezentuje numer osoby od 0 do n - 1
+    #w tej pętli tworzymy pary i zwiększamy za każdym obrotem 1. pętli friendNumber, który reprezentuje numer osoby od 0 do n - 1
     #do listy pairs_friends dodajemy utworzone pary, rozdzielamy pair splitem po spacji
     for personNumber in pairs_func:
         for i in range(len(personNumber)):

@@ -59,7 +59,7 @@ with open("znajomi_1.txt", "r", encoding="UTF-8") as file_1:
     people_who_know_others_1 = []
 
     for line in file_1:
-        people_who_know_others_1.append((line.strip("\n")).split(" "))
+        people_who_know_others_1.append((line.strip("\n")).split())
 # print(f'\nOsoby, których nikt nie zna mają numery: {people_nobody_knows(people_who_know_others_1, n1)}')
 
 with open("znajomi_2.txt", "r", encoding="UTF-8") as file_2:
@@ -68,7 +68,7 @@ with open("znajomi_2.txt", "r", encoding="UTF-8") as file_2:
     people_who_know_others_2 = []
 
     for line in file_2:
-        people_who_know_others_2.append((line.strip("\n")).split(" ")) #dodajemy kolejne linijki
+        people_who_know_others_2.append((line.strip("\n")).split()) #dodajemy kolejne linijki
 # print(f'\nOsoby, których nikt nie zna mają numery: {people_nobody_knows(people_who_know_others_2, n2)}')
 
 ###ODPOWIEDZI###
