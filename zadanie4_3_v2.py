@@ -73,6 +73,7 @@ with open("znajomi_2.txt", "r", encoding="UTF-8") as file_2:
 
 #ZNAJOMI_1.TXT
 #dla każdej pary w zwróconym zbiorze bierzemy numer osoby z tej pary i wypisujemy
+print("Pary numerów, które znają się nawzajem dla pliku znajomi_1.txt: ")
 for pair1 in display_pairs(pairs(people_who_know_others_1, n1)):
     for number1 in pair1:
         print(number1, end=" ")
@@ -81,6 +82,7 @@ print()
 
 #ZNAJOMI_2.TXT
 #dla każdej pary w zwróconym zbiorze bierzemy numer osoby z tej pary i wypisujemy
+print("Pary numerów, które znają się nawzajem dla pliku znajomi_2.txt: ")
 for pair2 in display_pairs(pairs(people_who_know_others_2, n2)):
     for number2 in pair2:
         print(number2, end=" ")
